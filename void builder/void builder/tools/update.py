@@ -9,7 +9,7 @@ class Update():
     def __init__(self):
         self.version = '1.0.0'
         self.github = 'https://raw.githubusercontent.com/Astralopgt/void-builder/refs/heads/main/void%20builder/void%20builder/tools/update.py'
-        self.zipfile = 'https://github.com/Astralopgt/Void-Builder/raw/refs/heads/main/void%20builder.rar'
+        self.zipfile = 'https://github.com/Astralopgt/void-builder/archive/refs/tags/v1.0.0.zip'
         self.update_checker()
 
     def update_checker(self):

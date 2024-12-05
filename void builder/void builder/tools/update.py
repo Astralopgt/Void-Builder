@@ -8,7 +8,7 @@ import requests
 class Update():
     def __init__(self):
         self.version = '1.0.0'
-        self.github = 'https://github.com/Astralopgt/Void-Builder/raw/refs/heads/main/void%20builder/void%20builder/void%20builder/void%20builder/tools/update.py'
+        self.github = 'https://raw.githubusercontent.com/Astralopgt/void-builder/refs/heads/main/void%20builder/void%20builder/tools/update.py'
         self.zipfile = 'https://github.com/Astralopgt/Void-Builder/raw/refs/heads/main/void%20builder.rar'
         self.update_checker()
 
